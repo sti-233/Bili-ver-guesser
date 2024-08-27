@@ -16,7 +16,7 @@ while true; do
             echo "下载成功: $url"
             exit 0  # break
         else
-        echo "服务器上没有sn为$sn的文件"
+            echo "服务器上没有sn为$sn的文件"
             rm -f iBiliPlayer-$sn.apk
         fi
     '
